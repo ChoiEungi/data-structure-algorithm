@@ -100,4 +100,4 @@ int main(){
     ddl.printList();
 }
 
-//template 구현으로 변경하기
+//need to change template (general DLinkedList)
