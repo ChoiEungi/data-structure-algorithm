@@ -11,7 +11,7 @@ Example: `./s20205188_04.out input1.txt output1.txt`
 ## Description of your code
 ### 문제 접근
 
-1. 힙 자료 구조형에서 Comp Class에서 연산자를 재정의 할 때, 문제에서 제시한 조건을 정의해줘 힙에서 insert 시 정렬될 때 GPA는 내림차순으로, Student_id에 대해서는 오름차순으로 정의했다. 자세한 과정은 코드에서 설명한다. 또한 heap에서 remove할 때 정렬 또한 Comp에서 정의한 연산자의 영향으로 remove를 해도 정렬될 떄 GPA는 내림차순으로, Student_id에 대해서는 오름차순으로 정의했다. 그렇기에 source code의 `removeMin()` method를 정해진 기준에서 Entry값을 제거하게 되므로 `removeEntry()`로 method name을 변경했다.
+1. Heap 자료구조형에서 Comp Class에서 연산자를 재정의 할 때, 문제에서 제시한 조건을 정의해줘 힙에서 insert 시 정렬될 때 GPA는 내림차순으로, Student_id에 대해서는 오름차순으로 정의했다. 자세한 과정은 코드에서 설명한다. 또한 heap에서 remove할 때 정렬 또한 Comp에서 정의한 연산자의 영향으로 remove를 해도 정렬될 떄 GPA는 내림차순으로, Student_id에 대해서는 오름차순으로 정의했다. 그렇기에 source code의 `removeMin()` method를 정해진 기준에서 Entry값을 제거하게 되므로 `removeEntry()`로 method name을 변경했다.
 2. File I/O를 통해 input을 받은 후 heap에 모두 insert한다. 이 때 1에서 언급한 방식으로 정렬되고, input이 끝나면 heap이 빌 때 까지 print/remove한다. remove 시 정렬도 1에서 언급한 방식으로 정렬된다.
 
 
