@@ -17,12 +17,8 @@
 ### Main method
 
 - space: O(n)
-- at(i) : A[i] , return index without removing, O(1)
-- set(i, o) : A[i] = o , O(1)
-- insert : worst : O(n), 삽입될 때 size를 늘림
-- erase  : worst O(n)
-- size : O(1)
-- empty O(1)
+- at(i), set(i, o), size(), empty() :  O(1)
+- insert : worst : O(n), 삽입될 때 size를 늘림, 
 
 [Code(C++)](/ArrayList/ArrayList.cpp)
 
@@ -49,6 +45,8 @@
 
 ### Double Linked List
 
+> A double linked list is a concrete data structure consisting of a sequence of nodes. Each node stores element and link to the next node and previous node.
+
 **Main method** 
 
 - addFront, addBack, add, removeFront, removeBack, remove() : O(1)
@@ -56,3 +54,18 @@
 - `DNode* header` , `Dnode* trailer` : private pointer 
 
 [Code(C++)](/DLinkedList/DLinkedList.cpp)
+
+
+
+## Stack
+
+> Insertions and deletions follow the last-in first-out scheme.
+
+### Main method
+
+- space()
+- size(), top(), empty(), push(), pop() : O(1)
+- private variable: capacity, Element,  t (index of top of the stack)
+
+
+
