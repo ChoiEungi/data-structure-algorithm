@@ -63,7 +63,7 @@
 
 ### Main method
 
-- space()
+- space() : O(n)
 - size(), top(), empty(), push(), pop() : O(1)
 - private variable: capacity, Element,  t (index of top of the stack)
 
