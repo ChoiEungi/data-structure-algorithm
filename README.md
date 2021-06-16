@@ -59,7 +59,7 @@
 
 ## Stack
 
-> Insertions and deletions follow the last-in first-out scheme.
+> ADT stores arbitrary object. Insertions and deletions follow the last-in first-out(LIFO) scheme.
 
 ### Main method
 
@@ -68,6 +68,59 @@
 - private variable: capacity, Element,  t (index of top of the stack)
 
 [Code(C++)](/ArrayStack/ArrayStack.cpp)
+
+
+
+## Queue
+
+> ADT stores arbitrary object. Insertions and deletions follow the first-in first-out (FIFO) scheme.
+
+
+
+## Tree
+
+
+
+
+
+## Linked Priority Queue
+
+> an abstract data type for storing a collection of prioritized elements that supports arbitrary element insertion but supports removal of elements in order of priority.
+
+**Main method**
+
+- size(), empty() : O(1)
+
+  |       method       | unsorted list | sorted list |
+  | :----------------: | :-----------: | :---------: |
+  |      insert()      |     O(1)      |    O(n)     |
+  | min(), removeMin() |     O(n)      |    O(1)     |
+
+- unsorted list means no sorting in insertion to priority queue, sorted list means sorting in insertion.
+
+[Code(C++)](/LinkedPriorityQueue/LinkedPriorityQueue.cpp)
+
+## Heaps
+
+
+
+
+
+## Hash Tables
+
+
+
+
+
+## Searching Trees
+
+
+
+
+
+## Sorting
+
+
 
 
 
