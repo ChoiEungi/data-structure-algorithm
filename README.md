@@ -98,7 +98,7 @@
 
 - unsorted list means no sorting in insertion to priority queue, sorted list means sorting in insertion.
 
-[Code(C++)](/LinkedPriorityQueue/LinkedPriorityQueue.cpp)
+[Code(C++)](/ListPriorityQueue/ListPriorityQueue.cpp)
 
 ## Heaps
 
