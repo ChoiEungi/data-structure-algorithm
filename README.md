@@ -79,6 +79,17 @@
 
 ## Tree
 
+> A tree is an abstract model of a hierarchical structure. A tree consists of nodes with a parent-child relation.
+
+**Main method**
+
+- p.left(), p.right(), p.parent() :Nested position class 
+- size(), empty(), root() 
+- positions() : return position of node
+- addroot(), expandExternal() ,removeExternal()
+
+[Code(C++)](/BinaryTree/BinaryTree.cpp)
+
 
 
 
@@ -89,38 +100,66 @@
 
 **Main method**
 
-- size(), empty() : O(1)
+- entry : (key, value) key indicates priority
+
+- size(), empty() : O(1) 
 
   |       method       | unsorted list | sorted list |
   | :----------------: | :-----------: | :---------: |
   |      insert()      |     O(1)      |    O(n)     |
   | min(), removeMin() |     O(n)      |    O(1)     |
 
-- unsorted list means no sorting in insertion to priority queue, sorted list means sorting in insertion.
+- unsorted list means no sorting in insertion to priority queue(use selection sort in removing), sorted list means sorting in insertion(insertion sort).
 
 [Code(C++)](/ListPriorityQueue/ListPriorityQueue.cpp)
 
+
+
 ## Heaps
 
+> Priority Queue that implemented by trees.
+
+- Heap-Order: key(v) >= key(parent(v)) (v is node)
+- Condition is complete binary tree. (max num of nodes 2^i in i level and must insert from left to right)
+
+**Main method**
+
+- entry : (key, value) key indicates priority
+- space : O(n)
+- insert(), removeMin(): O(log n)
+- size(), empty(), min() : O(1) 
 
 
 
+## Maps
 
-## Hash Tables
+> Explanation
 
 
+
+**Main methods**
+
+- key()
+- value()
+- setKey(k)
+- setValue(v)
+- find(k) : return iterator (entry를 access할 수 있는 인자), O(n)
+- put(k, v) : O(n)
+- erase() : O(n)
+- begin() , end() : 
+- size(), empty() :
 
 
 
 ## Searching Trees
 
-
+> 
 
 
 
 ## Sorting
 
-
+> 
 
 
 
